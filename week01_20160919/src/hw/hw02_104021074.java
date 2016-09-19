@@ -4,6 +4,7 @@ package hw;
  * Date: 2016/09/19
  * Author: 104021074 楊永聖
  */
+import java.util.Scanner;
 public class hw02_104021074 {
 
 	public static void main(String[] args) {
