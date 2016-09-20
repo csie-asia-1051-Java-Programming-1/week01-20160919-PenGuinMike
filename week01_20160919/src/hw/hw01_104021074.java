@@ -8,7 +8,7 @@ package hw;
 	//math.ceil(無條件進位)(Math.log(17)/log(2))=>log(17)
 	//floor(無條件捨去).round(四捨五入) 
 	//第四題 Math.pow(9.0,1/3.0)九的三分之一次方
- * Date: 2016/09/19
+ * Date: 2016/09/20
  * Author: 104021074 楊永聖
  */
 import java.util.Scanner;
