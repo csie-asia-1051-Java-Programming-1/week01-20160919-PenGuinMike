@@ -5,6 +5,7 @@ package hw;
  * Author: 104021074 楊永聖
  */
 import java.util.Scanner;
+import java.util.Random;
 public class hw02_104021074 {
 //筆記 :math.min(a,b)=>取最小,只能比兩個
 	//Random rnd=newRandom() *****import java.util.Random;=>亂數產生
@@ -14,7 +15,16 @@ public class hw02_104021074 {
 	//第四題 Math.pow(9.0,1/3.0)九的三分之一次方
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn=new Scanner(System.in);
+		Random rnd=new Random();
+		System.out.println("請輸入n值:");
+		int n=scn.nextInt();
+		
+		for (int i=0;i<6;i++){
+			int v1=rnd.nextInt(n)+1;
+			System.out.println(v1);
+		
+		}
 	}
 
 }
